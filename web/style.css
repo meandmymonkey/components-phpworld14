@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, Arial, Helvetica;
+    font-size: 17px;
+}
+
+#container {
+    width: 500px;
+    background: lavender;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.done {
+    color: green;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+
+h1 a, h1 a:hover {
+    text-decoration: none;
+}
+
+form {
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody tr form {
+    padding: 0;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    background: white;
+    width: 100%;
+    border: 1px solid black;
+}
+
+table th {
+    background: #efefef;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+table td {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #c0c0c0;
+}
+
+#footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}

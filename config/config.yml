@@ -1,0 +1,4 @@
+db:
+    username: root
+    password: ~
+    dsn:      mysql:host=localhost;dbname=components_phpworld14

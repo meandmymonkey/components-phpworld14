@@ -1,0 +1,24 @@
+list:
+    path: /
+    methods: [ GET ]
+    defaults: { _controller: index }
+
+show:
+    path: /{id}
+    methods: [ GET ]
+    defaults: { _controller: show }
+
+create:
+    path: /
+    methods: [ POST ]
+    defaults: { _controller: create }
+
+close:
+    path: /{id}/close
+    methods: [ GET, POST ]
+    defaults: { _controller: close }
+
+remove:
+    path: /{id}/remove
+    methods: [ GET, POST ]
+    defaults: { _controller: remove }
